@@ -3,14 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-
-
-	<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <title>Open Food Network Lite Demo - July 2017</title>
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
-
-
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
@@ -38,10 +34,10 @@
   <script>
 		// You have to replace this section with your custome config
 		var config = {
-		  apiKey: "apiKey",
-		  authDomain: "projectId.firebaseapp.com",
-		  databaseURL: "https://databaseName.firebaseio.com",
-		  storageBucket: "bucket.appspot.com",
+		  apiKey: "AIzaSyD5YMZKuptxiV95JCfcQbAPQwvNqV4E4Ic",
+		  authDomain: "ofnlite.firebaseapp.com",
+		  databaseURL: "https://ofnlite.firebaseio.com",
+		  storageBucket: "ofnlite.appspot.com",
 		};
 		firebase.initializeApp(config);
 	</script>
@@ -87,7 +83,7 @@
     <!--#5. indexCtrl -->
     <ion-side-menus  ng-controller="indexCtrl" data-componentid="side-menu21" style="" enable-menu-with-back-views="false">
         <ion-side-menu-content  >
-            <ion-nav-bar class="bar-assertive" >
+            <ion-nav-bar class="bar-balanced" >
 
                 <ion-nav-back-button></ion-nav-back-button>
 
@@ -125,14 +121,16 @@
 
                     <ion-item data-componentid="list-item1" style="" menu-close="" ui-sref="menu2" id="menu-list-item1" class="item-icon-left  ">
                         <i class="icon ion-ios-home-outline"></i>Menu</ion-item>
-                    <ion-item data-componentid="list-item2" style="" menu-close="" ui-sref="offers" id="menu-list-item2" class="item-icon-left  ">
-                        <i class="icon ion-ios-pricetag-outline"></i>Offers</ion-item>
+                    <ion-item data-componentid="list-item2" style="" menu-close="" ui-sref="producers" id="menu-list-item2" class="item-icon-left  ">
+                        <i class="icon ion-ios-pricetag-outline"></i>Producers</ion-item>
+                    <ion-item data-componentid="list-item9" style="" menu-close="" ui-sref="hubs" id="menu-list-item9" class="item-icon-left  ">
+                        <i class="icon ion-ios-pricetag-outline"></i>Hubs</ion-item>
                     <ion-item data-componentid="list-item8" style="" menu-close="" ui-sref="myCart" id="menu-list-item8" class="item-icon-left  ">
                         <i class="icon ion-ios-cart-outline"></i>My Cart</ion-item>
                     <ion-item data-componentid="list-item3" style="" menu-close="" ui-sref="lastOrders" id="menu-list-item3" class="item-icon-left  ">
                         <i class="icon ion-ios-clock-outline"></i>Orders</ion-item>
-                    <ion-item data-componentid="list-item4" style="" menu-close="" ui-sref="favourite" id="menu-list-item4" class="item-icon-left  ">
-                        <i class="icon ion-ios-star-outline"></i>Favourite</ion-item>
+                    <ion-item data-componentid="list-item4" style="" menu-close="" ui-sref="favorites" id="menu-list-item4" class="item-icon-left  ">
+                        <i class="icon ion-ios-star-outline"></i>Favorite</ion-item>
                     <ion-item data-componentid="list-item5" style="" menu-close="" ui-sref="settings" id="menu-list-item5" class="item-icon-left  ">
                         <i class="icon ion-ios-gear-outline"></i>Settings</ion-item>
                     <ion-item data-componentid="list-item6" style="" menu-close="" ui-sref="support" id="menu-list-item6" class="item-icon-left  ">
