@@ -1,75 +1,127 @@
 {
   "category" : {
-    "cat01" : "Burger",
-    "cat02" : "Drinks"
+    "cat01" : "Lettuce Mixes",
+    "cat02" : "Local Honey",
+    "cat03" : "Natural Soap"
   },
   "featured" : {
     "item1" : "slide_1",
     "item2" : "slide_2"
   },
+  "hubs" : {
+    "item1" : {
+      "available" : true,
+      "name" : "cat01",
+      "description" : "item1 description",
+      "image" : "chicken_maharaja",
+      "address" : "New Chicken Maharaja",
+      "contact_person" : 130,
+      "contact_email" : 100,
+      "website" : 100,
+      "start_date" : "9/22/2016"
+  }
+},
   "menu" : {
     "item1" : {
       "available" : true,
       "category" : "cat01",
       "description" : "item1 description",
-      "image" : "chicken_maharaja",
-      "name" : "New Chicken Maharaja",
+      "image" : "lettucemix",
+      "name" : "Organic Lettuce Mix",
       "price" : 130,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     },
     "item2" : {
       "available" : true,
       "category" : "cat01",
       "description" : "item2 description",
       "image" : "big_spicy_chicken_wrap",
-      "name" : "Big Spicy Chicken Wrap",
+      "name" : "Organic Basil",
       "price" : 120,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     },
     "item3" : {
       "available" : true,
       "category" : "cat02",
       "description" : "item3 description",
       "image" : "thumsup",
-      "name" : "Thumsup 100ml",
+      "name" : "Organic Garlic",
       "price" : 40,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     },
     "item4" : {
       "available" : true,
       "category" : "cat02",
-      "description" : "item4 description",
+      "description" : "Organic Onions",
       "image" : "mccafe_ice_coffee",
       "name" : "Ice Coffee",
       "price" : 140,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     },
     "item5" : {
       "available" : true,
       "category" : "cat01",
-      "description" : "item5 description",
+      "description" : "From local heirloom chickens",
       "image" : "mc_chicken",
-      "name" : "MC Chicken",
+      "name" : "Fresh ORganic Eggs",
       "price" : 190,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     },
     "item6" : {
       "available" : true,
       "category" : "cat02",
       "description" : "item6 description",
-      "image" : "Smoothie",
-      "name" : "Smoothie",
+      "image" : "Honey",
+      "name" : "Fresh Local Honey",
       "price" : 70,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     },
     "item8" : {
       "available" : true,
       "category" : "cat01",
       "description" : "item8 description",
       "image" : "salad_wrap",
-      "name" : "Salad Wrap",
+      "name" : "Organic Arugula",
       "price" : 150,
-      "stock" : 100
+      "stock" : 100,
+      "producer" : "2"
     }
-  }
+  },
+  "producer" : { 
+      "id" : 2,
+      "available" : true,
+      "hub" : "1",
+      "offering_description" : "regular high quality lettuce mix produce, and contect person for local seed bank initiative",
+      "image" : "farmer_icon.jpg",
+      "name" : "Lara Maestro",
+      "email" : "lara@scdhub.org",
+      "phone" : "3035551212",
+      "sms" : "y",
+      "phone_type" : "ios",
+      "farm_id" : 2,
+      "price" : 150
+    },
+      "farm" : { 
+      "id" : 2,
+      "available" : true,
+      "hub" : "1",
+      "description" : "grown at elevation, naturally farmed",
+      "image" : "farmer_icon.jpg",
+      "farm_name" : "Magnolia Organic Yards",
+      "farm_contact" : "Lara Maestro",
+      "farm_webpage" : "",
+      "farm_" : "",
+      "email" : "lara@scdhub.org",
+      "phone" : "3035551212",
+      "sms" : "y",
+      "phone_type" : "ios",
+      "farm_name" : "Magnolia Organic Yards",
+      "designation" : "uncerfified organic"
+    }
 }
