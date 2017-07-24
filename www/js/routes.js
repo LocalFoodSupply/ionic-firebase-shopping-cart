@@ -43,10 +43,22 @@ angular.module('app.routes', [])
     })
 
 
-  .state('offers', {
+  .state('producers', {
     url: '/page8',
-    templateUrl: 'templates/offers.html',
-    controller: 'offersCtrl'
+    templateUrl: 'templates/producers.html',
+    controller: 'producersCtrl'
+  })
+
+    .state('hubs', {
+    url: '/hubs',
+    templateUrl: 'templates/hubs.html',
+    controller: 'hubsCtrl'
+  })
+
+    .state('favorites', {
+    url: '/favorites',
+    templateUrl: 'templates/favorites.html',
+    controller: 'hubsCtrl'
   })
 
   .state('myCart', {
